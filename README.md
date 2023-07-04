@@ -50,5 +50,24 @@ For the after 1947 set, the outcomes of the words show no significant difference
 | char         | 1584_1883            | fourgram | 63.1% | 
 | char         | na1947               | fourgram | 68.3% | 
 
+![wordbigram](https://github.com/MirjamC/ngram_comparison/assets/37981069/a555b2be-4604-469a-9325-fc7a6e0c78da)
+![wordtrigram](https://github.com/MirjamC/ngram_comparison/assets/37981069/bed319a9-a7a8-4bd6-b94a-3ca0570dd4ca)
+![wordfourgram](https://github.com/MirjamC/ngram_comparison/assets/37981069/def72773-5f3d-4163-b179-debf4e44a2a2)
+
+![charbigram](https://github.com/MirjamC/ngram_comparison/assets/37981069/7ef0d8bb-89eb-4fd8-abe4-db005ead852b)
+![chartrigram](https://github.com/MirjamC/ngram_comparison/assets/37981069/99342c60-4871-43fc-af0a-a01d8074abc8)
+![charfourgram](https://github.com/MirjamC/ngram_comparison/assets/37981069/54839975-7179-4e5e-9419-fab12a47ba34)
+
+
+
+
 ## Method 3: perplexity
+
+Testset: data from 1584_1883
+| ngram type   | model            | ngram    | median PPL model 1584_1883    | median PPL model after 1947 |
+|:-------------|:-----------------|:---------|:----------|:----------|
+| word         | 1584_1883        | bigram   | 13992   | 17862    | 
+| word         | 1584_1883        | trigram   | 55319   |  17862 |
+| word         | 1584_1883        | fourgram   | 67330   | 57063  |
+
 

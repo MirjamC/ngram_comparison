@@ -1,5 +1,5 @@
 # Interchangeability of ngrams models between heterogeneous dataset
-Reposotiry beloning to the posterpresentation during DH2023. 
+Repository beloning to the posterpresentation during DH2023. 
 
 ## Introduction
 We research the question: How, and to what extent, is an ngram model built upon corpus A interchangeable to measure the quality of corpus B?

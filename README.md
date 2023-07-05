@@ -97,6 +97,12 @@ Testset: data from Wikipedia
 | char        | simple      | bigram   | 267   | 242   | 
 | char         | simple        | trigram   | 184   | 166 |
 | char         | simple        | fourgram   | 163   | 148  |
+| word         | normal        | bigram   | 9818    | 10509    | 
+| word         | normal       | trigram   | 52784   | 6273 |
+| word         | normal       | fourgram   | 83457   | 102926  |
+| char        | normal      | bigram   | 210   | 190   | 
+| char         | normal        | trigram   | 150   | 135 |
+| char         | normal        | fourgram   | 142   | 128  |
 
 
 

@@ -88,15 +88,15 @@ Testset: data from 1584_1883
 | char         | 1584_1883        | fourgram   | 217   | 117  |
 
 
-Testset: data from Simple Wikipedia
-| ngram type   | model            | ngram    | median PPL model 1584_1883    | median PPL model after 1947 |
+Testset: data from Wikipedia
+| ngram type   | model            | ngram    | median PPL simple    | median PPL model normal |
 |:-------------|:-----------------|:---------|:----------|:----------|
-| word         | 1584_1883        | bigram   | 13992   | 17862    | 
-| word         | 1584_1883        | trigram   | 55319   |  5061 |
-| word         | 1584_1883        | fourgram   | 67330   | 57063  |
-| char        | 1584_1883        | bigram   | 253   | 136   | 
-| char         | 1584_1883        | trigram   | 230   |  122 |
-| char         | 1584_1883        | fourgram   | 217   | 117  |
+| word         | simple        | bigram   | 5416   | 8398    | 
+| word         | simple       | trigram   | 32042   |  50544 |
+| word         | simple        | fourgram   | 57039   | 84169  |
+| char        | simple      | bigram   | 267   | 242   | 
+| char         | simple        | trigram   | 184   | 166 |
+| char         | simple        | fourgram   | 163   | 148  |
 
 
 

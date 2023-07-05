@@ -58,7 +58,21 @@ For the after 1947 set, the outcomes of the words show no significant difference
 ![chartrigram](https://github.com/MirjamC/ngram_comparison/assets/37981069/99342c60-4871-43fc-af0a-a01d8074abc8)
 ![charfourgram](https://github.com/MirjamC/ngram_comparison/assets/37981069/54839975-7179-4e5e-9419-fab12a47ba34)
 
-
+### Reading level
+| ngram type   | version             | ngram    | % ngrams in intersection    
+|:-------------|:-------------------- |:---------|:----------|
+| word         | simple            | bigram   | 36% | 
+| word         | normal               | bigram   | 29% | 
+| word         | simple            | trigram  | 18.1% | 
+| word         | normal               | trigram  | 15.7% | 
+| word         | simple            | fourgram | 9.6% | 
+| word         | normal               | fourgram | 8.8% | 
+| char         | simple            | bigram   | 93.3% | 
+| char         | normal               | bigram   | 94.9% | 
+| char         | simple            | trigram  | 84% | 
+| char         | normal               | trigram  | 78% | 
+| char         | simple            | fourgram | 78.2% | 
+| char         | normal               | fourgram | 70.2% | 
 
 
 ## Method 3: perplexity

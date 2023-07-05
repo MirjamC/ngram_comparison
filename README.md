@@ -81,7 +81,22 @@ Testset: data from 1584_1883
 | ngram type   | model            | ngram    | median PPL model 1584_1883    | median PPL model after 1947 |
 |:-------------|:-----------------|:---------|:----------|:----------|
 | word         | 1584_1883        | bigram   | 13992   | 17862    | 
-| word         | 1584_1883        | trigram   | 55319   |  17862 |
+| word         | 1584_1883        | trigram   | 55319   |  5061 |
 | word         | 1584_1883        | fourgram   | 67330   | 57063  |
+| char        | 1584_1883        | bigram   | 253   | 136   | 
+| char         | 1584_1883        | trigram   | 230   |  122 |
+| char         | 1584_1883        | fourgram   | 217   | 117  |
+
+
+Testset: data from Simple Wikipedia
+| ngram type   | model            | ngram    | median PPL model 1584_1883    | median PPL model after 1947 |
+|:-------------|:-----------------|:---------|:----------|:----------|
+| word         | 1584_1883        | bigram   | 13992   | 17862    | 
+| word         | 1584_1883        | trigram   | 55319   |  5061 |
+| word         | 1584_1883        | fourgram   | 67330   | 57063  |
+| char        | 1584_1883        | bigram   | 253   | 136   | 
+| char         | 1584_1883        | trigram   | 230   |  122 |
+| char         | 1584_1883        | fourgram   | 217   | 117  |
+
 
 

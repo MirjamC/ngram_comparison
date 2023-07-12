@@ -2,10 +2,13 @@
 Repository beloning to the posterpresentation during DH2023. 
 
 ## Introduction
-We research the question: How, and to what extent, is an ngram model built upon corpus A interchangeable to measure the quality of corpus B?
-We researched this for both time period and reading level. For time period  we used a set of .... books from period ... and ... books for period ... . For the reading level we used the Wikipedia datsets of ... words and .... words. 
-
-We used three methods to gain insights in this question: we measured the similarity between the ngram frequencies of the set using a Wilcoxon rank sum test. We calculated the percentage of overlapping ngrams between sets and we trained models to calculate the perplexity.
+Our research focussed on the research question: How, and to what extent, is an ngram model built upon corpus A interchangeable to measure the quality of corpus B?
+We compared corpora from two time periods for which we used a set of ~1.9M words from 1584 to 1883, and ~2M word from 1947 or later. In addition, two Wikipedia corpora with different reading levels were compared. For both the  ‘normal’ and Simple Wikipedia corpora, we used ~7.6M words.
+ 
+We used three methods to compare the corpora and measure their interchangeability: 
+* 1) the similarity between ngram frequencies of the corpora was determined using Wilcoxon signed-rank test;
+* 2) the percentage of overlapping ngrams between corpora was calculated;
+* 3) NLTK ngram models were trained to calculate the perplexity on a test
 
 ## Method 1: ngram frequency similarity
 
